@@ -6,6 +6,7 @@ class fifa:
     def __init__(self):
         window = Tk()
         window.title("Enter id & Password ")
+        window.minsize(width=300,height=300)
         l1 = Label(window, text="Username: ").place(x=10,y=10)
         l2 = Label(window, text="Password: ").place(x=10,y=50)
         self.n=StringVar()

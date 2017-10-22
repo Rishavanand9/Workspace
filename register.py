@@ -6,6 +6,7 @@ class reg:
     def __init__(self):
         window = Tk()
         window.title("registration form ")
+        window.minsize(width=300,height=300)
         l1 = Label(window, text=" Select Username: ").place(x=10,y=10)
         l2 = Label(window, text="Select Password: ").place(x=10,y=50)
         l2 = Label(window, text="Confirm Password: ").place(x=10, y=100)

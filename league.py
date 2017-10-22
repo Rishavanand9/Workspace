@@ -6,6 +6,7 @@ class league:
     def __init__(self):
         window = Tk()
         window.title("SELECT YOUR LEAGUE")
+       # window.minsize(width=600,height=600)
         l1 = Label(window, text="SELECT YOUR LEAGUE").place(x=50,y=10)
         b1 = Button(window, text="LA LIGA ",command=self.teamA).place(x=50,y=100)
         b2 = Button(window, text="BARCALAYS ",command=self.teamB).place(x=150,y=100)
