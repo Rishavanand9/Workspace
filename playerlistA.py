@@ -33,7 +33,7 @@ class App(tk.Frame):
 
 connection = sql.connect("localdb")
 cursor = connection.cursor()
-res = cursor.execute("select * from Player ")
+res = cursor.execute("select * from Player where team='Arsenal'")
 data = res.fetchall()
 window = tk.Tk()
 window.geometry("600x500")
